@@ -1,4 +1,15 @@
+import { useEffect } from "react";
 function VissionAndMission() {
+  window.document.head.innerHTML = `
+ 
+  `;
+
+  document.querySelector(".script_wrapper").innerHTML = `
+  
+  <script type="text/javascript" defer src="https://shiplay.io/library/js/vendor.js" id="vendor-js"></script>
+  <script type="text/javascript" defer src="https://shiplay.io/library/js/main.js" id="js-js"></script>
+  `;
+
   return (
     <div>
       <a
@@ -422,5 +433,4 @@ function VissionAndMission() {
   );
 }
 
-
-export default VissionAndMission
+export default VissionAndMission;

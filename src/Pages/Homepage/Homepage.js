@@ -2,10 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Homepage(props) {
-  const LinkHandle = ()=> {
-    window.reload()
-    alert('reload')
-  }
+
   return (
     <div id="Homepage">
       <div>
@@ -35,7 +32,7 @@ function Homepage(props) {
         </a>
         <header className="fix header">
           <div className="abs mobile-background" />
-          <Link onclick={LinkHandle} className="header-logo" name="Home" to="/">
+          <Link  className="header-logo" name="Home" to="/">
             <img
               src="https://shiplay.io/library/media/logo.png"
               alt="shiplay"
@@ -79,24 +76,46 @@ function Homepage(props) {
           </div>
           <div className="main-menu">
             <nav className="first">
-              <Link onclick={LinkHandle} className="item" data-name="Our Platform" to="flowchart">
+              <Link
+                
+                className="item"
+                data-name="Our Platform"
+                to="flowchart"
+              >
                 <span className="title">Our Platform</span>
               </Link>
+
               <a
+                href="http://localhost:3000/vission_and_mission"
                 className="item"
                 data-name="Vision & Mission"
-                href="/vision-and-mission/"
               >
                 <span className="title">Vision &amp; Mission</span>
               </a>
-              <Link onclick={LinkHandle} className="item" data-name="TOKENOMICS" to="token">
+
+              <Link
+                
+                className="item"
+                data-name="TOKENOMICS"
+                to="token"
+              >
                 <span className="title">TOKENOMICS</span>
               </Link>
-              <Link onclick={LinkHandle} className="item" data-name="ROADMAP" to="roadmap">
+              <Link
+                
+                className="item"
+                data-name="ROADMAP"
+                to="roadmap"
+              >
                 <span className="title">ROADMAP</span>
               </Link>
 
-              <Link onclick={LinkHandle} className="item" data-name="Team" to="team">
+              <Link
+                
+                className="item"
+                data-name="Team"
+                to="team"
+              >
                 <span className="title">Our Team</span>
               </Link>
               <a
