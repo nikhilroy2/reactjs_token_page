@@ -31,7 +31,7 @@ function RoadMap(props) {
         </a>
         <header className="fix header">
           <div className="abs mobile-background" />
-          <a className="header-logo" taret="_blank" name="Home" href="">
+          <a className="header-logo" target="_blank" name="Home" href="/">
             <img
               src="https://shiplay.io/library/media/logo.png"
               alt="shiplay"
