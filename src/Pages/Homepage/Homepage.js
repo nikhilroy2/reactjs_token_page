@@ -26,7 +26,7 @@ function Homepage(props) {
             marginRight: "auto",
             textAlign: "center",
           }}
-          title
+          
         >
           <i /> Join Official Telegram{" "}
         </a>

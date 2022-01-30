@@ -22,7 +22,6 @@ function VissionAndMission() {
           marginRight: "auto",
           textAlign: "center",
         }}
-        title
       >
         <i /> Join Official Telegram{" "}
       </a>
