@@ -76,11 +76,11 @@ function Homepage(props) {
           </div>
           <div className="main-menu">
             <nav className="first">
-              <Link  className="item" data-name="Our Platform" to="/flowchart">
+              <a  className="item" data-name="Our Platform" target="_blank" href="/flowchart">
               
                 <span className="title">Our Platform</span>
               
-              </Link>
+              </a>
               <a  target="_blank"
                 className="item"
                 data-name="Vision & Mission"

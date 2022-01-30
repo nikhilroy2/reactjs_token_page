@@ -1,16 +1,6 @@
 import React from "react";
 
 function FlowChart(props) {
-  document.head.innerHTML += `<style>
-  @font-face {
-    font-family: tur;
-    src: url(./TuskerGrotesk-3600Semibold.woff);
-  }
-  * {
-    font-family: tur!important;
-    font-weight: 400 !important;
-  }
-</style>`
   return (
     <div>
       <div>
