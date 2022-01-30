@@ -1,15 +1,5 @@
 import { useEffect } from "react";
 function VissionAndMission() {
-  window.document.head.innerHTML = `
- 
-  `;
-
-  document.querySelector(".script_wrapper").innerHTML = `
-  
-  <script type="text/javascript" defer src="https://shiplay.io/library/js/vendor.js" id="vendor-js"></script>
-  <script type="text/javascript" defer src="https://shiplay.io/library/js/main.js" id="js-js"></script>
-  `;
-
   return (
     <div>
       <a
@@ -38,7 +28,7 @@ function VissionAndMission() {
       </a>
       <header className="fix header">
         <div className="abs mobile-background" />
-        <a className="header-logo" name="Home" href="https://shiplay.io/">
+        <a className="header-logo" taret="_blank" name="Home" href="/">
           <img
             src="https://shiplay.io/library/media/logo.png"
             alt="shiplay"
@@ -82,26 +72,43 @@ function VissionAndMission() {
         </div>
         <div className="main-menu">
           <nav className="first">
-            <a className="item" data-name="Our Platform" href="/flowchart/">
+            <a
+              className="item"
+              data-name="Our Platform"
+              target="_blank"
+              href="/flowchart"
+            >
               <span className="title">Our Platform</span>
             </a>
             <a
+              target="_blank"
               className="item"
               data-name="Vision & Mission"
               href="/vision-and-mission/"
             >
               <span className="title">Vision &amp; Mission</span>
             </a>
-            <a className="item" data-name="TOKENOMICS" href="/token/">
+            <a
+              target="_blank"
+              className="item"
+              data-name="TOKENOMICS"
+              href="/token/"
+            >
               <span className="title">TOKENOMICS</span>
             </a>
-            <a className="item" data-name="ROADMAP" href="/roadmap/">
+            <a
+              target="_blank"
+              className="item"
+              data-name="ROADMAP"
+              href="/roadmap/"
+            >
               <span className="title">ROADMAP</span>
             </a>
-            <a className="item" data-name="Team" href="/team/">
+            <a target="_blank" className="item" data-name="Team" href="/team/">
               <span className="title">Our Team</span>
             </a>
             <a
+              target="_blank"
               className="item"
               target="_blank"
               href="https://whitepaper.shiplay.io/"
@@ -112,6 +119,7 @@ function VissionAndMission() {
                       <span class="title">Pre-Sale</span>
                       </a>*/}
             <a
+              target="_blank"
               className="item"
               target="_blank"
               style={{ backgroundColor: "#009688", padding: "0 15px" }}
@@ -122,6 +130,7 @@ function VissionAndMission() {
           </nav>
           <nav className="second">
             <a
+              target="_blank"
               className="c-btn item"
               data-name="PLAY ALPHA"
               href="https://play.shiplay.io/"

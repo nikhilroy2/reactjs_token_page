@@ -6,7 +6,7 @@ function Homepage(props) {
   return (
     <div id="Homepage">
       <div>
-        <a
+      <a
           href="https://t.me/+EXL2SWBwZug1M2E0"
           target="_blank"
           className="telegramim_button telegramim_shadow telegramim_pulse"
@@ -32,13 +32,13 @@ function Homepage(props) {
         </a>
         <header className="fix header">
           <div className="abs mobile-background" />
-          <Link  className="header-logo" name="Home" to="/">
+          <a className="header-logo" taret="_blank" name="Home" href="">
             <img
               src="https://shiplay.io/library/media/logo.png"
               alt="shiplay"
               style={{ border: "4px solid white", borderRadius: "50%" }}
             />
-          </Link>
+          </a>
           <div className="mobile-btn">
             <div className="abs f-center icon open">
               <svg
@@ -76,49 +76,26 @@ function Homepage(props) {
           </div>
           <div className="main-menu">
             <nav className="first">
-              <Link
-                
-                className="item"
-                data-name="Our Platform"
-                to="flowchart"
-              >
+              <a className="item" data-name="Our Platform" target="_blank" href="/flowchart">
                 <span className="title">Our Platform</span>
-              </Link>
-
-              <a
-                href="http://localhost:3000/vission_and_mission"
+              </a>
+              <a  target="_blank"
                 className="item"
                 data-name="Vision & Mission"
+                href="/vision-and-mission/"
               >
                 <span className="title">Vision &amp; Mission</span>
               </a>
-
-              <Link
-                
-                className="item"
-                data-name="TOKENOMICS"
-                to="token"
-              >
+              <a  target="_blank" className="item" data-name="TOKENOMICS" href="/token/">
                 <span className="title">TOKENOMICS</span>
-              </Link>
-              <Link
-                
-                className="item"
-                data-name="ROADMAP"
-                to="roadmap"
-              >
+              </a>
+              <a  target="_blank" className="item" data-name="ROADMAP" href="/roadmap/">
                 <span className="title">ROADMAP</span>
-              </Link>
-
-              <Link
-                
-                className="item"
-                data-name="Team"
-                to="team"
-              >
+              </a>
+              <a  target="_blank" className="item" data-name="Team" href="/team/">
                 <span className="title">Our Team</span>
-              </Link>
-              <a
+              </a>
+              <a  target="_blank"
                 className="item"
                 target="_blank"
                 href="https://whitepaper.shiplay.io/"
@@ -126,9 +103,9 @@ function Homepage(props) {
                 <span className="title">WhitePaper</span>
               </a>
               {/* <a class="item" data-name="Pre Sale" href="/pre-sale/">
-                    <span class="title">Pre-Sale</span>
-                    </a>*/}
-              <a
+                      <span class="title">Pre-Sale</span>
+                      </a>*/}
+              <a  target="_blank"
                 className="item"
                 target="_blank"
                 style={{ backgroundColor: "#009688", padding: "0 15px" }}
@@ -138,9 +115,9 @@ function Homepage(props) {
               </a>
             </nav>
             <nav className="second">
-              <a
+              <a  target="_blank"
                 className="c-btn item"
-                data-name="Launch App"
+                data-name="PLAY ALPHA"
                 href="https://play.shiplay.io/"
                 target="_blank"
                 rel="noopener"

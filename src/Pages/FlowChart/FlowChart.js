@@ -1,10 +1,20 @@
 import React from "react";
 
 function FlowChart(props) {
+  document.head.innerHTML += `<style>
+  @font-face {
+    font-family: tur;
+    src: url(./TuskerGrotesk-3600Semibold.woff);
+  }
+  * {
+    font-family: tur!important;
+    font-weight: 400 !important;
+  }
+</style>`
   return (
     <div>
       <div>
-        <a
+      <a
           href="https://t.me/+EXL2SWBwZug1M2E0"
           target="_blank"
           className="telegramim_button telegramim_shadow telegramim_pulse"
@@ -30,7 +40,7 @@ function FlowChart(props) {
         </a>
         <header className="fix header">
           <div className="abs mobile-background" />
-          <a className="header-logo" name="Home" href="https://shiplay.io/">
+          <a className="header-logo" taret="_blank" name="Home" href="/">
             <img
               src="https://shiplay.io/library/media/logo.png"
               alt="shiplay"
@@ -74,26 +84,26 @@ function FlowChart(props) {
           </div>
           <div className="main-menu">
             <nav className="first">
-              <a className="item" data-name="Our Platform" href="/flowchart/">
+              <a className="item" data-name="Our Platform" target="_blank" href="/flowchart">
                 <span className="title">Our Platform</span>
               </a>
-              <a
+              <a  target="_blank"
                 className="item"
                 data-name="Vision & Mission"
                 href="/vision-and-mission/"
               >
                 <span className="title">Vision &amp; Mission</span>
               </a>
-              <a className="item" data-name="TOKENOMICS" href="/token/">
+              <a  target="_blank" className="item" data-name="TOKENOMICS" href="/token/">
                 <span className="title">TOKENOMICS</span>
               </a>
-              <a className="item" data-name="ROADMAP" href="/roadmap/">
+              <a  target="_blank" className="item" data-name="ROADMAP" href="/roadmap/">
                 <span className="title">ROADMAP</span>
               </a>
-              <a className="item" data-name="Team" href="/team/">
+              <a  target="_blank" className="item" data-name="Team" href="/team/">
                 <span className="title">Our Team</span>
               </a>
-              <a
+              <a  target="_blank"
                 className="item"
                 target="_blank"
                 href="https://whitepaper.shiplay.io/"
@@ -103,7 +113,7 @@ function FlowChart(props) {
               {/* <a class="item" data-name="Pre Sale" href="/pre-sale/">
                       <span class="title">Pre-Sale</span>
                       </a>*/}
-              <a
+              <a  target="_blank"
                 className="item"
                 target="_blank"
                 style={{ backgroundColor: "#009688", padding: "0 15px" }}
@@ -113,7 +123,7 @@ function FlowChart(props) {
               </a>
             </nav>
             <nav className="second">
-              <a
+              <a  target="_blank"
                 className="c-btn item"
                 data-name="PLAY ALPHA"
                 href="https://play.shiplay.io/"

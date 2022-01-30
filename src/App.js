@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/flowchart" element={<FlowChart />} />
-        <Route path="/vission_and_mission" element={<VissionAndMission />} />
+        <Route path="/vision-and-mission" element={<VissionAndMission />} />
         <Route path="/token" element={<Token />} />
         <Route path="/roadmap" element={<RoadMap />} />
         <Route path="/team" element={<Team />} />
