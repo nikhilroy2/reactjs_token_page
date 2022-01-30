@@ -4,7 +4,7 @@ function FlowChart(props) {
   return (
     <div>
       <div>
-      <a
+        <a
           href="https://t.me/+EXL2SWBwZug1M2E0"
           target="_blank"
           className="telegramim_button telegramim_shadow telegramim_pulse"
@@ -73,26 +73,48 @@ function FlowChart(props) {
           </div>
           <div className="main-menu">
             <nav className="first">
-              <a className="item" data-name="Our Platform" target="_blank" href="/flowchart">
+              <a
+                className="item"
+                data-name="Our Platform"
+                target="_blank"
+                href="/flowchart"
+              >
                 <span className="title">Our Platform</span>
               </a>
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="item"
                 data-name="Vision & Mission"
                 href="/vision-and-mission/"
               >
                 <span className="title">Vision &amp; Mission</span>
               </a>
-              <a  target="_blank" className="item" data-name="TOKENOMICS" href="/token/">
+              <a
+                target="_blank"
+                className="item"
+                data-name="TOKENOMICS"
+                href="/token/"
+              >
                 <span className="title">TOKENOMICS</span>
               </a>
-              <a  target="_blank" className="item" data-name="ROADMAP" href="/roadmap/">
+              <a
+                target="_blank"
+                className="item"
+                data-name="ROADMAP"
+                href="/roadmap/"
+              >
                 <span className="title">ROADMAP</span>
               </a>
-              <a  target="_blank" className="item" data-name="Team" href="/team/">
+              <a
+                target="_blank"
+                className="item"
+                data-name="Team"
+                href="/team/"
+              >
                 <span className="title">Our Team</span>
               </a>
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="item"
                 target="_blank"
                 href="https://whitepaper.shiplay.io/"
@@ -102,7 +124,8 @@ function FlowChart(props) {
               {/* <a class="item" data-name="Pre Sale" href="/pre-sale/">
                       <span class="title">Pre-Sale</span>
                       </a>*/}
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="item"
                 target="_blank"
                 style={{ backgroundColor: "#009688", padding: "0 15px" }}
@@ -112,7 +135,8 @@ function FlowChart(props) {
               </a>
             </nav>
             <nav className="second">
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="c-btn item"
                 data-name="PLAY ALPHA"
                 href="https://play.shiplay.io/"
@@ -130,10 +154,35 @@ function FlowChart(props) {
             <div className="js-scroll">
               <main className="page-wrapper">
                 <section className="p-flowchart__header">
-                  <h1 className="title">
-                    Flow
-                    <wbr />
-                    chart
+                  <h1 className="title" style={{}}>
+                    <div
+                      className="line"
+                      style={{
+                        display: "block",
+                        textAlign: "center",
+                        position: "relative",
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "relative",
+                          display: "inline-block",
+                          transform: "translate(0px, 0px)",
+                        }}
+                      >
+                        Flow
+                      </div>
+                      <wbr />
+                      <div
+                        style={{
+                          position: "relative",
+                          display: "inline-block",
+                          transform: "translate(0px, 0px)",
+                        }}
+                      >
+                        chart
+                      </div>
+                    </div>
                   </h1>
                   <div className="visuel">
                     <div
@@ -144,16 +193,22 @@ function FlowChart(props) {
                     >
                       <picture
                         className="r "
-                        style={{ paddingBottom: "137.38095238095%" }}
+                        style={{
+                          paddingBottom: "137.381%",
+                          transform: "translate(0px, 0px)",
+                        }}
                         data-ratio="1.3738095238095"
                       >
                         <img
-                          className="lazy"
-                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          className="lazy entered loaded"
+                          src="https://shiplay.io/library/media/chirpley-flowchart-robot.png"
                           data-src="https://shiplay.io/library/media/chirpley-flowchart-robot.png"
                           data-srcset="https://shiplay.io/library/media/chirpley-flowchart-robot-320x0-c-default.png 320w, https://shiplay.io/library/media/chirpley-flowchart-robot-640x0-c-default.png 640w, https://shiplay.io/library/media/chirpley-flowchart-robot.png 840w"
                           data-sizes="(min-width: 750px) 40vw, 100vw"
                           alt="Robot"
+                          data-ll-status="loaded"
+                          sizes="(min-width: 750px) 40vw, 100vw"
+                          srcSet="https://shiplay.io/library/media/chirpley-flowchart-robot-320x0-c-default.png 320w, https://shiplay.io/library/media/chirpley-flowchart-robot-640x0-c-default.png 640w, https://shiplay.io/library/media/chirpley-flowchart-robot.png 840w"
                         />
                       </picture>
                     </div>
@@ -165,16 +220,22 @@ function FlowChart(props) {
                     >
                       <picture
                         className="r "
-                        style={{ paddingBottom: "125.89473684211%" }}
+                        style={{
+                          paddingBottom: "125.895%",
+                          transform: "translate(0px, 0px)",
+                        }}
                         data-ratio="1.2589473684211"
                       >
                         <img
-                          className="lazy"
-                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          className="lazy entered loaded"
+                          src="https://shiplay.io/library/media/chirpley-flowchart-bird.png"
                           data-src="https://shiplay.io/library/media/chirpley-flowchart-bird.png"
                           data-srcset="https://shiplay.io/library/media/chirpley-flowchart-bird-320x0-c-default.png 320w, https://shiplay.io/library/media/chirpley-flowchart-bird-640x0-c-default.png 640w, https://shiplay.io/library/media/chirpley-flowchart-bird.png 950w"
                           data-sizes="(min-width: 750px) 40vw, 100vw"
                           alt="Bird"
+                          data-ll-status="loaded"
+                          sizes="(min-width: 750px) 40vw, 100vw"
+                          srcSet="https://shiplay.io/library/media/chirpley-flowchart-bird-320x0-c-default.png 320w, https://shiplay.io/library/media/chirpley-flowchart-bird-640x0-c-default.png 640w, https://shiplay.io/library/media/chirpley-flowchart-bird.png 950w"
                         />
                       </picture>
                     </div>

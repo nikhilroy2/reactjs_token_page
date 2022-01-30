@@ -5,7 +5,7 @@ function RoadMap(props) {
     <div>
       {" "}
       <div>
-      <a
+        <a
           href="https://t.me/+EXL2SWBwZug1M2E0"
           target="_blank"
           className="telegramim_button telegramim_shadow telegramim_pulse"
@@ -25,7 +25,6 @@ function RoadMap(props) {
             marginRight: "auto",
             textAlign: "center",
           }}
-          
         >
           <i /> Join Official Telegram{" "}
         </a>
@@ -75,26 +74,48 @@ function RoadMap(props) {
           </div>
           <div className="main-menu">
             <nav className="first">
-              <a className="item" data-name="Our Platform" target="_blank" href="/flowchart">
+              <a
+                className="item"
+                data-name="Our Platform"
+                target="_blank"
+                href="/flowchart"
+              >
                 <span className="title">Our Platform</span>
               </a>
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="item"
                 data-name="Vision & Mission"
                 href="/vision-and-mission/"
               >
                 <span className="title">Vision &amp; Mission</span>
               </a>
-              <a  target="_blank" className="item" data-name="TOKENOMICS" href="/token/">
+              <a
+                target="_blank"
+                className="item"
+                data-name="TOKENOMICS"
+                href="/token/"
+              >
                 <span className="title">TOKENOMICS</span>
               </a>
-              <a  target="_blank" className="item" data-name="ROADMAP" href="/roadmap/">
+              <a
+                target="_blank"
+                className="item"
+                data-name="ROADMAP"
+                href="/roadmap/"
+              >
                 <span className="title">ROADMAP</span>
               </a>
-              <a  target="_blank" className="item" data-name="Team" href="/team/">
+              <a
+                target="_blank"
+                className="item"
+                data-name="Team"
+                href="/team/"
+              >
                 <span className="title">Our Team</span>
               </a>
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="item"
                 target="_blank"
                 href="https://whitepaper.shiplay.io/"
@@ -104,7 +125,8 @@ function RoadMap(props) {
               {/* <a class="item" data-name="Pre Sale" href="/pre-sale/">
                       <span class="title">Pre-Sale</span>
                       </a>*/}
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="item"
                 target="_blank"
                 style={{ backgroundColor: "#009688", padding: "0 15px" }}
@@ -114,7 +136,8 @@ function RoadMap(props) {
               </a>
             </nav>
             <nav className="second">
-              <a  target="_blank"
+              <a
+                target="_blank"
                 className="c-btn item"
                 data-name="PLAY ALPHA"
                 href="https://play.shiplay.io/"
@@ -132,8 +155,37 @@ function RoadMap(props) {
             <div className="js-scroll">
               <main className="page-wrapper">
                 <section className="p-roadmap__header">
-                  <h1 className="title">
-                    <em>Road</em> Map
+                  <h1 className="title" style={{}}>
+                    <div
+                      className="line"
+                      style={{
+                        display: "block",
+                        textAlign: "center",
+                        position: "relative",
+                      }}
+                    >
+                      <em>
+                        <div
+                          style={{
+                            position: "relative",
+                            display: "inline-block",
+                            transform: "translate(0px, 0px)",
+                          }}
+                        >
+                          Road
+                        </div>
+                      </em>{" "}
+                      <div
+                        style={{
+                          position: "relative",
+                          display: "inline-block",
+                          transform: "translate(0px, 0px)",
+                        }}
+                      >
+                        {" "}
+                        Map
+                      </div>
+                    </div>
                   </h1>
                 </section>
                 <section className="p-roadmap__timeline">
